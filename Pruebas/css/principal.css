@@ -1,0 +1,48 @@
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  background-image: linear-gradient(to top, gray 0%, black 100%);
+}
+
+.titulo{
+  text-align:center;
+  color: white;
+  font-size: 300%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img{
+ border: solid #333;
+ margin-bottom: 10px;
+ width:100%;
+}
+
+
+/*las etiquetas ".lineafinal" y ".columna" corresponden  a la ultima linea de imagenes, antes del foorter*/
+.lineafinal > .columna {
+    float: left;
+    margin-bottom: 80px;
+    padding: 10px;
+    width: 25%;
+}
+
+.row > .column {
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.cursor {
+  cursor: pointer
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 50px 0 white, 0 6px 50px 0 blue;
+}

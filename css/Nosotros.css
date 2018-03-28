@@ -1,0 +1,18 @@
+
+body{
+  color:white;
+}
+#Titulo{
+  padding-top: 70px;
+  text-align: center;
+}
+
+#Info{
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: justify;
+  font-family: Comic Sans MS, sans-serif;
+/*  border-radius: 50px;
+  background-color: rgba(0, 0, 255, 0.5);
+  background: rgba(0, 0, 255, 0.5);*/
+}

@@ -1,0 +1,70 @@
+body {margin: 0;
+/*  background-image: linear-gradient(to top, gray 0%, black 100%);
+  background-repeat: no-repeat center fixed;*/
+}
+
+.titulo{
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    box-shadow: 0 4px 50px 0 white, 0 6px 50px 0 blue;
+    transform: translateY(-10px) scale(1.02);
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div.desc h3{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0
+}
+
+div.desc p{
+    font-size: 12px;
+    color: white;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.respons {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .respons {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .respons {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
